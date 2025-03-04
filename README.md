@@ -17,7 +17,7 @@ DeepSeep ဆိုရင် 671B parameters ရှိပြီး Activated Para
 ဒါကြောင့် ဒီလို model မျိုးကို သာမန် computer တစ်လုံးရဲ့ ဘယ်လိုမှ ချဉ်းကပ်လို့ မရနိုင်ပါဘူး။
 အောက်မှာ LLM model တစ်ခုကို train ယူဖို့ လိုအပ်တဲ့ memory calculation လေးတွေကို လေ့လာကြည့်နိုင်ပါတယ်။
 
-[image](https://github.com/Ko-Yin-Maung/Finetuning-DeepSeek-R1/blob/main/Memory%20Calc.png)
+![Result](https://github.com/Ko-Yin-Maung/Finetuning-DeepSeek-R1/blob/main/Memory%20Calc.png)
 
 (လေ့လာခြင်းဖြင့် ကျွန်ုပ်တို့၏ မနက်ဖြန်များကို ဖြတ်သန်းကြပါစို့..။)
 
