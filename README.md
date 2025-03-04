@@ -7,11 +7,11 @@
 အခုလည်း ကျွန်တော်အနေနဲ့ Distill model လေးတွေကိုသာ finetuning လုပ်ပြနိုင်တာ ဖြစ်ပါတယ်။ ဒါတောင် အနည်းဆုံး batch size နဲ့ colab gpu ကို သုံးခဲ့ရတာပါ။
 
 Distill model တွေသည် မူလ based model ရဲ့ performance ကို parameter အရသော်လည်းကောင်း၊ quantization အရသော်လည်းကောင်း အများကြီး လျှော့ချပေးထားပါတယ်။
-ဒါတောင် DeepSeep ရဲ့ အသေးဆုံး Distill model သည် 1.5B parameters ရှိနေပါသေးတယ်။
+ဒါတောင် DeepSeek ရဲ့ အသေးဆုံး Distill model သည် 1.5B parameters ရှိနေပါသေးတယ်။ Memory 16 GB လောက်ရှိမှ finetuning လုပ်နိုင်ပါလိမ့်မယ်။
 
-ဘာပဲ ပြောပြော... ကျွန်တော်တို့ အနေနဲ့တော့ Distill model လေးတွေကို သုံးပြီး LLM model တွေကို finetuning လုပ်ဖူးသွားတာပေါ့ဗျာ။
+ဘာပဲ ပြောပြော... Colab တို့ Kaggle တို့ ရှိနေတော့ ကျွန်တော်တို့ အနေနဲ့တော့ Distill model လေးတွေကို သုံးပြီး LLM model တွေကို finetuning လုပ်ဖူးသွားတာပေါ့ဗျာ။
 
-DeepSeep ဆိုရင် 671B parameters ရှိပြီး Activated Parameters အနေနဲ့တောင် 37B ရှိပါတယ်။ 
+DeepSeek ဆိုရင် 671B parameters ရှိပြီး Activated Parameters အနေနဲ့တောင် 37B ရှိပါတယ်။ 
 ဒီ parameter လောက်ကို train နိုင်ဖို့ အတွက် ဆိုရင်တောင် ကျွန်တော်တို့မှာ memory ≈444 GB လောက် လိုနေပါသေးတယ်။
 
 ဒါကြောင့် ဒီလို model မျိုးကို သာမန် computer တစ်လုံးရဲ့ ဘယ်လိုမှ ချဉ်းကပ်လို့ မရနိုင်ပါဘူး။
